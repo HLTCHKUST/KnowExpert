@@ -5,6 +5,7 @@
 <img align="right" src="img/HKUST.jpeg" width="12%">
 
 The implementation of the paper "Retrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters":
+
 **Knowledge-Grounded Dialogue Response Generation with Adapters**. [**Yan Xu**](https://yana-xuyan.github.io), [**Etsuko Ishii**](https://etsukokuste.github.io/), [Samuel Cahyawijaya](https://samuelcahyawijaya.github.io/), [Zihan Liu](https://zliucr.github.io/), [Genta Indra Winata](https://gentawinata.com/), [Andrea Madotto](https://andreamad8.github.io), Dan Su, Pascale Fung **DialDoc@ACL2022** [[PDF]](https://aclanthology.org/2022.dialdoc-1.10.pdf)
 
 If you use any source codes included in this toolkit in your work, please cite the following paper. The bibtex is listed below:
@@ -61,7 +62,7 @@ To use our model for evaluation, we provide the checkpoints of the models
 and the corresponding predictions.
 
 Please download the models and the results from [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/yxucb_connect_ust_hk/EpATLSCrAgNAtxYkpQ6YN00B2vjtUUHbEukpXOFrQiyPow?e=fCh6dS) 
-and put the folders in the `save` folder under `save`.
+and put the downloaded folders under the `save` folder.
 
 
 ## Topic Modeling Training
@@ -156,6 +157,6 @@ CUDA_VISIBLE_DEVICES=0 sh scripts/inference_w.sh wow ctm_20k_new_SB/wow_20k_new_
 In this paper, three autometic evaluation metrics are involved to evaluate the 
 generated response: Uni-gram F1, Distinct-1, and Distinct-2.
 
-```
+```console
 python evaluation.py --split test --checkpoint best --save_path save/results --exp <exp name> --unigram_f1 --dist
 ```
