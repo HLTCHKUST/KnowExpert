@@ -2,7 +2,7 @@
 
 <img src="img/pytorch-logo-dark.png" width="10%"> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-<img align="right" src="img/HKUST.jpeg" width="12%"> <img align="right" src="img/caire.png" width="12%">
+<img align="right" src="img/caire.png" width="20%"> <img align="right" src="img/HKUST.jpeg" width="12%">
 
 The implementation of the paper "Retrieval-Free Knowledge-Grounded Dialogue Response Generation with Adapters":
 
