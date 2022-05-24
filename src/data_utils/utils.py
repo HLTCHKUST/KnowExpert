@@ -75,7 +75,7 @@ def get_max_len(sents):
     max_len = max([len(sent) for sent in sents])
     return max_len
 
-def truncate_sents(self, sents, length):
+def truncate_sents(sents, length):
     sents = [sent[:length] for sent in sents]
     return sents
 
